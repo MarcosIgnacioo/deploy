@@ -11,7 +11,7 @@
 
     <!-- Menú de navegación -->
     <div class="flex space-x-4">
-      <RouterLink class="hover:text-gray-400 transition-colors" to="/">Home</RouterLink>
+      <RouterLink class="hover:text-gray-400 transition-colors" to="/deploy">Home</RouterLink>
       <!-- <RouterLink class="hover:text-gray-400 transition-colors" to="/season-details/1408/1">Season Details</RouterLink> -->
       <!-- <RouterLink class="hover:text-gray-400 transition-colors" to="/movies/keyword/1701">Keyword</RouterLink> -->
       <!-- <RouterLink class="hover:text-gray-400 transition-colors" to="/movies/category/28">Category</RouterLink> -->
