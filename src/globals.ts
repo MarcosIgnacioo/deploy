@@ -13,7 +13,7 @@ export const API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZTcyMDUxZTNiYzJjNjE1ZWQ
 
 export const ROUTES = [
   { path: '/login', component: Login },
-  { path: '/', component: HomeView },
+  { path: '/deploy', component: HomeView },
   { path: '/season-details/:series_id/:season_number', component: SeasonDetails },
   { path: '/movies', component: MoviesFiltered },
   { path: '/movies/keyword/:keyword_id', component: KeywordDetails },
