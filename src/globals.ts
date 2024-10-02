@@ -8,12 +8,15 @@ import SerieDetail from "./views/SerieDetail.vue";
 import PersonDetail from "./views/PersonDetail.vue";
 import Login from "./views/Login.vue";
 import Favorite from "./views/Favorite.vue";
+import { RouteRecordRaw } from "vue-router";
 
 export const API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZTcyMDUxZTNiYzJjNjE1ZWQyMWQ3NGU5YTU1YWM1MCIsIm5iZiI6MTcyNzg2MzgzNC40Mjc0MTMsInN1YiI6IjY2ZjJmNjM3NzMwMGE1YmEyMTNjMGEwYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6dR_FDwJCugqXDkN91dLQQ0aAlTOnYkAz7B1m15j2fA"
 
-export const ROUTES = [
+export const ROUTES: Readonly<RouteRecordRaw[]> = [
+  { path: '/', redirect: '/home' },
   { path: '/login', component: Login },
-  { path: '/deploy', component: HomeView },
+  { path: '/home', component: HomeView },
+  { path: '/login', component: Login },
   { path: '/season-details/:series_id/:season_number', component: SeasonDetails },
   { path: '/movies', component: MoviesFiltered },
   { path: '/movies/keyword/:keyword_id', component: KeywordDetails },

@@ -6,12 +6,12 @@
   <!-- Header -->
   <nav class="bg-black text-white h-fit flex items-center justify-between px-6 py-4">
     <div class="text-xl font-bold">
-      <RouterLink to="/deploy">Cuevano movies</RouterLink>
+      <RouterLink to="/home">Cuevano movies</RouterLink>
     </div>
 
     <!-- Menú de navegación -->
     <div class="flex space-x-4">
-      <RouterLink class="hover:text-gray-400 transition-colors" to="/deploy">Home</RouterLink>
+      <RouterLink class="hover:text-gray-400 transition-colors" to="/home">Home</RouterLink>
       <!-- <RouterLink class="hover:text-gray-400 transition-colors" to="/season-details/1408/1">Season Details</RouterLink> -->
       <!-- <RouterLink class="hover:text-gray-400 transition-colors" to="/movies/keyword/1701">Keyword</RouterLink> -->
       <!-- <RouterLink class="hover:text-gray-400 transition-colors" to="/movies/category/28">Category</RouterLink> -->

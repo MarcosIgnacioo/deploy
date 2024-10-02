@@ -23,9 +23,16 @@ async function getMoviesByCategory(category) {
     let response = await fetch(`https://api.themoviedb.org/3/discover/movie?with_genres=${category}`, requestOptions);
     let json = await response.json();
     movies.value = json.results;
-    response = await fetch(`https://api.themoviedb.org/3/discover/tv?with_genres=${category}`, requestOptions);
-    json = await response.json();
-    series.value = json.results;
+    const seriesHeaders = new Headers();
+    seriesHeaders.append("Authorization", `Bearer ${API_KEY}`);
+    const seriesRequest = {
+        method: "GET",
+        headers: seriesHeaders,
+        redirect: "follow"
+    };
+    const seriesResponse = await fetch(`https://api.themoviedb.org/3/discover/tv?with_genres=${category}`, seriesRequest);
+    const seriesJson = await seriesResponse.json();
+    series.value = seriesJson.results;
     isLoading.value = false;
 }
 function sourceFilter(e) {

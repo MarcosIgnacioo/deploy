@@ -30,30 +30,23 @@ function __VLS_template() {
     const __VLS_6 = __VLS_resolvedLocalAndGlobalComponents.RouterLink;
     /** @type { [typeof __VLS_components.RouterLink, typeof __VLS_components.RouterLink, ] } */
     // @ts-ignore
-    const __VLS_7 = __VLS_asFunctionalComponent(__VLS_6, new __VLS_6({ ...{ class: ("hover:text-gray-400 transition-colors") }, to: ("/"), }));
-    const __VLS_8 = __VLS_7({ ...{ class: ("hover:text-gray-400 transition-colors") }, to: ("/"), }, ...__VLS_functionalComponentArgsRest(__VLS_7));
+    const __VLS_7 = __VLS_asFunctionalComponent(__VLS_6, new __VLS_6({ ...{ class: ("hover:text-gray-400 transition-colors") }, to: ("/home"), }));
+    const __VLS_8 = __VLS_7({ ...{ class: ("hover:text-gray-400 transition-colors") }, to: ("/home"), }, ...__VLS_functionalComponentArgsRest(__VLS_7));
     __VLS_nonNullable(__VLS_11.slots).default;
     const __VLS_11 = __VLS_pickFunctionalComponentCtx(__VLS_6, __VLS_8);
     const __VLS_12 = __VLS_resolvedLocalAndGlobalComponents.RouterLink;
     /** @type { [typeof __VLS_components.RouterLink, typeof __VLS_components.RouterLink, ] } */
     // @ts-ignore
-    const __VLS_13 = __VLS_asFunctionalComponent(__VLS_12, new __VLS_12({ ...{ class: ("hover:text-gray-400 transition-colors") }, to: ("/login"), }));
-    const __VLS_14 = __VLS_13({ ...{ class: ("hover:text-gray-400 transition-colors") }, to: ("/login"), }, ...__VLS_functionalComponentArgsRest(__VLS_13));
+    const __VLS_13 = __VLS_asFunctionalComponent(__VLS_12, new __VLS_12({ ...{ class: ("hover:text-gray-400 transition-colors") }, to: ("/favorite"), }));
+    const __VLS_14 = __VLS_13({ ...{ class: ("hover:text-gray-400 transition-colors") }, to: ("/favorite"), }, ...__VLS_functionalComponentArgsRest(__VLS_13));
     __VLS_nonNullable(__VLS_17.slots).default;
     const __VLS_17 = __VLS_pickFunctionalComponentCtx(__VLS_12, __VLS_14);
-    const __VLS_18 = __VLS_resolvedLocalAndGlobalComponents.RouterLink;
-    /** @type { [typeof __VLS_components.RouterLink, typeof __VLS_components.RouterLink, ] } */
-    // @ts-ignore
-    const __VLS_19 = __VLS_asFunctionalComponent(__VLS_18, new __VLS_18({ ...{ class: ("hover:text-gray-400 transition-colors") }, to: ("/favorite"), }));
-    const __VLS_20 = __VLS_19({ ...{ class: ("hover:text-gray-400 transition-colors") }, to: ("/favorite"), }, ...__VLS_functionalComponentArgsRest(__VLS_19));
-    __VLS_nonNullable(__VLS_23.slots).default;
-    const __VLS_23 = __VLS_pickFunctionalComponentCtx(__VLS_18, __VLS_20);
     __VLS_elementAsFunction(__VLS_intrinsicElements.main, __VLS_intrinsicElements.main)({ ...{ class: ("flex flex-col justify-center bg-gray-50") }, });
-    const __VLS_24 = __VLS_resolvedLocalAndGlobalComponents.RouterView;
+    const __VLS_18 = __VLS_resolvedLocalAndGlobalComponents.RouterView;
     /** @type { [typeof __VLS_components.RouterView, typeof __VLS_components.routerView, typeof __VLS_components.RouterView, typeof __VLS_components.routerView, ] } */
     // @ts-ignore
-    const __VLS_25 = __VLS_asFunctionalComponent(__VLS_24, new __VLS_24({}));
-    const __VLS_26 = __VLS_25({}, ...__VLS_functionalComponentArgsRest(__VLS_25));
+    const __VLS_19 = __VLS_asFunctionalComponent(__VLS_18, new __VLS_18({}));
+    const __VLS_20 = __VLS_19({}, ...__VLS_functionalComponentArgsRest(__VLS_19));
     __VLS_styleScopedClasses['bg-black'];
     __VLS_styleScopedClasses['text-white'];
     __VLS_styleScopedClasses['h-fit'];
@@ -66,8 +59,6 @@ function __VLS_template() {
     __VLS_styleScopedClasses['font-bold'];
     __VLS_styleScopedClasses['flex'];
     __VLS_styleScopedClasses['space-x-4'];
-    __VLS_styleScopedClasses['hover:text-gray-400'];
-    __VLS_styleScopedClasses['transition-colors'];
     __VLS_styleScopedClasses['hover:text-gray-400'];
     __VLS_styleScopedClasses['transition-colors'];
     __VLS_styleScopedClasses['hover:text-gray-400'];
