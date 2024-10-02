@@ -6,7 +6,7 @@
   <!-- Header -->
   <nav class="bg-black text-white h-fit flex items-center justify-between px-6 py-4">
     <div class="text-xl font-bold">
-      <RouterLink to="/">Cuevano movies</RouterLink>
+      <RouterLink to="/deploy">Cuevano movies</RouterLink>
     </div>
 
     <!-- Menú de navegación -->

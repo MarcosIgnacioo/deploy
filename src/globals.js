@@ -11,7 +11,7 @@ import Favorite from "./views/Favorite.vue";
 export const API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZTcyMDUxZTNiYzJjNjE1ZWQyMWQ3NGU5YTU1YWM1MCIsIm5iZiI6MTcyNzg2MzgzNC40Mjc0MTMsInN1YiI6IjY2ZjJmNjM3NzMwMGE1YmEyMTNjMGEwYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6dR_FDwJCugqXDkN91dLQQ0aAlTOnYkAz7B1m15j2fA";
 export const ROUTES = [
     { path: '/login', component: Login },
-    { path: '/', component: HomeView },
+    { path: '/deploy', component: HomeView },
     { path: '/season-details/:series_id/:season_number', component: SeasonDetails },
     { path: '/movies', component: MoviesFiltered },
     { path: '/movies/keyword/:keyword_id', component: KeywordDetails },

@@ -22,8 +22,8 @@ function __VLS_template() {
     const __VLS_0 = __VLS_resolvedLocalAndGlobalComponents.RouterLink;
     /** @type { [typeof __VLS_components.RouterLink, typeof __VLS_components.RouterLink, ] } */
     // @ts-ignore
-    const __VLS_1 = __VLS_asFunctionalComponent(__VLS_0, new __VLS_0({ to: ("/"), }));
-    const __VLS_2 = __VLS_1({ to: ("/"), }, ...__VLS_functionalComponentArgsRest(__VLS_1));
+    const __VLS_1 = __VLS_asFunctionalComponent(__VLS_0, new __VLS_0({ to: ("/deploy"), }));
+    const __VLS_2 = __VLS_1({ to: ("/deploy"), }, ...__VLS_functionalComponentArgsRest(__VLS_1));
     __VLS_nonNullable(__VLS_5.slots).default;
     const __VLS_5 = __VLS_pickFunctionalComponentCtx(__VLS_0, __VLS_2);
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("flex space-x-4") }, });
